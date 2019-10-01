@@ -44,7 +44,7 @@ function generateTableEntry(appobj) {
 	entry = "<tr>"
 	entry += "<td>"
 			+ "<span style=\"display:inline-block; width: 2px;\"></span>"
-			+ appobj.sId + "</td>"
+			+ appobj.sid + "</td>"
 	entry += "<td>"
 			+ "<span style=\"display:inline-block; width: 2px;\"></span>"
 			+ "<a title=\"Show App details\" href=\"details?app="
@@ -69,7 +69,7 @@ function displayAppDetails(app) {
 	app = getSearchParams();
 	var details = "<table style=\"width: 70%\";>";
 	details += "<tr><td style=\"width: 30%\";>" + "App ID: " + "</td><td>"
-			+ app.sId + "</td></tr>";
+			+ app.sid + "</td></tr>";
 	details += "<tr><td>" + "Name: " + "</td><td>" + app.name
 			+ "</td></tr>";
 	details += "<tr><td>" + "Description: " + "</td><td>" + app.description

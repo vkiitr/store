@@ -1,4 +1,4 @@
-<%@ page import="com.utility.common.StoreConstant" %>
+<%@ page import="com.app.common.StoreConstant" %>
 <html lang="en-US">
 <head>
 <title>Store</title>
