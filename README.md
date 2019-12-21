@@ -6,6 +6,7 @@ Tool we Need
 1. Install gradle
 2. Install jdk and set JAVA_HOME
 3. Download tomcat
+4. Download MySQL and update application.properties accordingly. 
 
 To build the project: goto src directory and run gradle build
 
